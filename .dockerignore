@@ -1,0 +1,7 @@
+
+.gitignore
+bloc.txt
+
+.git/
+dist/
+node_modules/

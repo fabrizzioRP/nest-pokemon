@@ -39,6 +39,16 @@ yarn start:dev
 GET http://localhost:3000/api/v2/seed
 ```
 
+## Ejecutar en Producción
+
+1. Crear el archivo `.env.prod`.
+2. Llenar las variables de entorno de prod.
+3. Ejecutar el build de producción en docker.
+
+```
+docker-compose -f docker-compose.prod.yml --env-file .env.prod up --build
+```
+
 #### References
 
 https://docs.nestjs.com/techniques/mongodb
